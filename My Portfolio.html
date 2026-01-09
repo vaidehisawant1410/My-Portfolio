@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Verdana', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f9f9;
+            color: #333;
+        }
+        nav {
+            background-color: rgb(189, 71, 102);
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        nav a {
+            color: #2c3e50;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #d6cbcf;
+            border-bottom: 2px solid #dacfd3;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 800px; 
+            margin: auto;
+            text-align: center;
+        }
+
+        h4 {
+            font-size: 32px;
+            color: #e7286e;
+            margin-bottom: 20px;
+            display: inline-block;
+            border-bottom: 4px solid rgb(208, 33, 71);
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .skills-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .skills-list li {
+            background: #da354d;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h4>Welcome</h4>
+        <p>Hello! Myself <strong>Vaidehi Vinayak Sawant</strong>.</p>
+        <p>I am currently studying BCA and aspiring to establish myself in the field of web development.</p>
+    </section>
+
+    <hr style="border: 0; height: 1px; background: #ddd; max-width: 50%; margin: auto;">
+
+    <section id="about">
+        <h4>About Me</h4>
+        <p>I am a <strong>BCA</strong> student passionate about web development. I have knowledge of HTML, CSS, and SQL, and I enjoy building simple and user-friendly websites.</p>
+    </section>
+
+    <section id="skills">
+        <h4>Skills</h4>
+        <ul class="skills-list">
+            <li>Multimedia Animation</li>
+            <li>Photo Editing</li>
+            <li>C</li>
+            <li>HTML & CSS</li>
+            <li>SQL / Databases</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h4>Education</h4>
+        <p>I am a BCA Second Year Student from <br><strong>Maharshi Karve Mahila Mahavidyalay, Ratnagiri.</strong></p>
+    </section>
+
+    <section id="contact">
+        <h4>Contact Me</h4>
+        <p>📧 <strong>Email:</strong> vaidehisawant998@gmail.com</p>
+        <p>📞 <strong>Phone:</strong> 8411842362</p>
+    </section>
+
+    <footer>
+        &copy; 2026 Vaidehi Sawant | Internship Portfolio Task
+    </footer>
+
+</body>
+</html>

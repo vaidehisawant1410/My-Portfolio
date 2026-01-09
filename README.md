@@ -1,2 +1,1 @@
-# My-Portfolio
-This project focuses on creating a responsive personal portfolio website using HTML and CSS.
+This project focuses on creating a responsive personal portfolio website using HTML and CSS. It includes well-structured sections such as Home, About, Skills, Education, and Contact. Proper HTML semantics ensure clarity, while CSS handles layout and responsiveness. The website allows smooth navigation and works effectively across mobile, tablet, and desktop screens to showcase personal skills professionally online.
